@@ -1,0 +1,108 @@
+@font-face{
+	src: url("JapanBento.otf");
+	font-family: JapanBento;
+}
+
+@font-face{
+	src: url("JapanRich.otf");
+	font-family: JapanRich;
+}
+
+body{
+	text-align: center;
+	margin-top: 20px;
+	font-family: JapanBento;
+	background: linear-gradient( #bf932b, #e6ca5b);
+	color: #010101;
+}
+
+#header{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+h1, h3, p {
+	text-shadow: 0 0 1px #010101;
+}
+
+#bday-age{
+	background: #47340d;
+	color: white;
+	text-shadow: 0 0 10px #e6ca5b;
+	padding: 2px 5px;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+#bday-date{
+	background: #47340d;
+	color: white;
+	text-shadow: 0 0 10px #e6ca5b;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0;
+}
+
+#avatar{
+	width: 250px;
+	border: 4px solid #e6ca5b;
+	border-radius: 50%;
+}
+
+.gift-section{
+	margin-top: 50px;
+}
+
+
+.gift-title{
+	margin-bottom: 10px;
+	text-shadow: 0 0 1px black;
+}
+
+#gift-hint{
+ 	margin-top: 0;
+} 
+
+
+.gift-img{
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	border: 5px solid #ffffff;
+	border-radius: 10px;
+	background-image: url("./images/gift.jpg");
+	background-size: cover;
+	box-shadow: 0 0 10px #010101;
+}
+
+#gift-img-happy:hover{
+	background-image: url("./images/courageApproved.gif");
+}
+
+#gift-img-hot:hover{
+	background-image: url("./images/courageShock.webp");
+	
+}
+
+#gift-img-described:hover{
+	background-image: url("./images/courageDiligent.webp");
+}
+
+#gift-img-badass:hover{
+	background-image: url("./images/Courage.webp");
+}
+
+#gift-img-cheers:hover{
+	background-image: url("./images/courageMoney.webp");
+}
+
+#gift-img-cheers{
+	height: 300px;
+}
+
+#footer{
+	margin: 40px 0 20px;
+	font-style: italic;
+}
+
